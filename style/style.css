@@ -1,4 +1,4 @@
-.text-box h3:nth-child(1){
+/* .text-box h3:nth-child(1){
     color: pink;
 }
 
@@ -15,5 +15,29 @@ color: green;
 }
 
 .yellow{
+    color: yellow;
+} */
+
+.text-box > h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+/* div div p {
+    color: red;
+} */
+
+div + div p {
+    color: red;
+}
+
+div + h3 + p {
+    color: green;
+}
+
+.yellow {
     color: yellow;
 }
